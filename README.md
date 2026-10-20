@@ -82,7 +82,7 @@ Run:
 
 `StartAudioConverter.bat`
 
-On the first launch, the launcher asks you to locate the `Audacity.exe` executable. Select the executable belonging to your Audacity 3.7.9 installation.
+On the first launch, the launcher asks you to locate the `Audacity.exe` executable. Select the executable belonging to your Audacity 3.7.9 installation. If you are not used to locate .exe files, please check your "C:/Program Files" folder on your computer, as it is the usual location for an Audacity installation.
 
 The selected path is saved in the local configuration folder for subsequent launches.
 
