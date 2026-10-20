@@ -2,6 +2,21 @@
 
 A Windows desktop application for converting multiple audio files in batches using Audacity. Configure export settings, organize output files, customize filenames, and monitor conversion progress through a graphical interface.
 
+## Why Choose Audio Batch Converter?
+
+Audio Batch Converter is designed for users who value **privacy, transparency, and control over their files**.
+
+- **100% local processing:** Your audio files are processed on your own computer through Audacity. No audio uploads to a conversion server are required.
+- **Privacy by design:** Your audio files do not need to leave your computer for conversion. The application is designed to work locally without relying on an online conversion service.
+- **Built on Audacity:** Audio processing and exporting are handled by Audacity, an established, open-source audio application.
+- **Open-source transparency:** You can inspect the source code to understand how the converter works and what it does with your files.
+- **No Python installation required:** The packaged Windows release is ready to run, while Audacity is installed separately.
+- **Batch workflow and control:** Convert multiple files with configurable export settings, filename options, output organization, and progress tracking.
+
+Unlike online converters, Audio Batch Converter does not require you to upload your audio to a third-party website. Unlike a complex audio editor, it focuses on making batch conversion straightforward and configurable.
+
+**Your files stay on your computer, your workflow stays under your control, and the source code is available for inspection.**
+
 ## Table of Contents
 
 - [Features](#features)
