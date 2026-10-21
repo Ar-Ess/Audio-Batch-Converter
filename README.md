@@ -121,18 +121,32 @@ The exact options available depend on the installed release and the export capab
 
 ## Conversion Options
 
-The application provides output-format selection and supported export parameters. Depending on the chosen format, these may include sample rate and audio encoding settings.
+### General Options
 
-It also provides the following general conversion options:
+The application provides the following options to control which files are converted and how the output is organized:
 
-- **Include files in subfolders** — Include files from subfolders when selecting an input folder.
-- **Keep folder structure** — Preserve the input folder hierarchy in the output folder instead of placing all converted files in one directory.
-- **Output filename template** — Customize output filenames using the supported filename template.
-- **Handle duplicate filenames** — Choose how the application handles output files when filenames conflict.
-- **Overwrite existing files** — Control whether existing output files can be overwritten.
-- **Skip files with the same extension** — Skip files that already use the selected output format.
+- **Include files in subfolders** — Include files located in subfolders when processing an input folder.
+- **Keep folder structure** — Preserve the original folder hierarchy in the output folder.
+- **Set new filenames** — Customize the filenames of converted files.
+- **Overwrite existing output files** — Allow existing output files to be overwritten.
+- **Skip files with the same extension as output** — Skip files that already have the selected output file extension.
+
+### Audio Options
+
+Customize the exported audio format and its properties using the available settings. These options depend on the selected output format.
+
+- **Output format** — Choose the audio format for the converted files.
+- **Sample rate** — Set the sample rate of the exported audio where supported.
+- **Bit depth** — Select the bit depth for formats that support it, including available integer or floating-point PCM options.
+- **Format-specific settings** — Configure additional export parameters available for the selected format.
+
+### Additional Features
+
+In addition to the general options, the application includes features to make batch conversion easier to manage:
+
+- **Handle duplicate filenames** — Manage filename conflicts when multiple input files would produce the same output filename.
 - **Continue after errors** — Continue processing the remaining files if an individual conversion fails.
-- **Show progress** — Track conversion progress, including the current file and overall progress.
+- **Show progress** — Display conversion progress, including the current file and overall progress.
 
 ## How It Works
 
