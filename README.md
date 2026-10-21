@@ -230,7 +230,3 @@ Audio-Batch-Converter-Github/
 The build script generates a packaged Windows application from `Development\main.py` and places the executable and its runtime files in `Release\Internal`.
 
 End users do not need Python installed.
-
-## License
-
-Add the project's license here before distributing it publicly. Also review the licensing requirements for any third-party libraries and components included in the release.
