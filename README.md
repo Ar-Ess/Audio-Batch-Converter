@@ -121,31 +121,18 @@ The exact options available depend on the installed release and the export capab
 
 ## Conversion Options
 
-### Output formats and audio settings
-
 The application provides output-format selection and supported export parameters. Depending on the chosen format, these may include sample rate and audio encoding settings.
 
-Not every setting applies to every format. Available options depend on Audacity and its export libraries.
+It also provides the following general conversion options:
 
-### Output organization
-
-Choose whether converted files should preserve the input folder structure or be placed together in a single output folder.
-
-### Output filenames
-
-Use the available filename customization options to control how converted files are named.
-
-### Duplicate files and overwriting
-
-Configure how the application handles output-name collisions and existing files. Review these settings before running a batch that targets a folder containing previous conversions.
-
-### Skipping files
-
-Where available, the option to skip files that already use the selected output extension can avoid unnecessary processing.
-
-### Progress and errors
-
-The interface reports conversion progress and the file currently being processed. If an individual file fails, the application reports the error and can continue with other files when possible. A summary is shown when the batch finishes.
+- **Include files in subfolders** — Include files from subfolders when selecting an input folder.
+- **Keep folder structure** — Preserve the input folder hierarchy in the output folder instead of placing all converted files in one directory.
+- **Output filename template** — Customize output filenames using the supported filename template.
+- **Handle duplicate filenames** — Choose how the application handles output files when filenames conflict.
+- **Overwrite existing files** — Control whether existing output files can be overwritten.
+- **Skip files with the same extension** — Skip files that already use the selected output format.
+- **Continue after errors** — Continue processing the remaining files if an individual conversion fails.
+- **Show progress** — Track conversion progress, including the current file and overall progress.
 
 ## How It Works
 
